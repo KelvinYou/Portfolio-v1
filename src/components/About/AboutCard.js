@@ -10,7 +10,8 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Kelvin You </span>
             from <span className="purple"> Selangor, Malaysia.</span>
-            <br />I am a software engineering student from Tunku Abdul Rahman University of Management Technology (TARUMT)
+            <br />I am a <span className="purple"> Software Engineering</span> student from {" "}
+            <span className="purple">Tunku Abdul Rahman University of Management Technology (TARUMT)</span>
             <br />
             <br />
             Apart from coding, some other activities that I love to do!

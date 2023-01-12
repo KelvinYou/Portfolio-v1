@@ -24,7 +24,7 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> C++, Javascript and Python. </b>
+                <b className="purple"> C, C++, Java, Javascript, Dart and Python. </b>
               </i>
               <br />
               <br />
@@ -33,7 +33,7 @@ function Home2() {
                 <b className="purple">Web Technologies and Products </b> and
                 also in areas related to{" "}
                 <b className="purple">
-                  Deep Learning and Natural Launguage Processing.
+                  Mobile Applications and Artificial Intelligence.
                 </b>
               </i>
               <br />
@@ -48,7 +48,11 @@ function Home2() {
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js and Next.js</b>
+                <b className="purple"> React.js</b>. {" "}
+              </i>
+              I also tried to build a mobile app for my FYP using the new development tool which is {" "}
+              <i>
+                <b className="purple"> Flutter</b>. {" "}
               </i>
             </p>
           </Col>
