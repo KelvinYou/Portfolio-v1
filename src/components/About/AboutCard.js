@@ -29,7 +29,7 @@ function AboutCard() {
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Study make me happy!"{" "}
+            "Establishing specific goals and working towards achieving them can lead to a sense of fulfillment and satisfaction."{" "}
           </p>
           <footer className="blockquote-footer">Kelvin</footer>
         </blockquote>

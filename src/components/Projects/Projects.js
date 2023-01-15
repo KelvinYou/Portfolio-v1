@@ -5,7 +5,7 @@ import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
+import portfolio from "../../Assets/Projects/portfolio.jpeg";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 
@@ -23,7 +23,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={portfolio}
               isBlog={false}
               title="My Portfolio"
               description="A self-introduction website created with react.js."
@@ -34,7 +34,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={portfolio}
               isBlog={false}
               title="Travel Guide: Tour Guide App"
               description="Mobile application created using Flutter with dart as programming language"
@@ -45,7 +45,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={portfolio}
               isBlog={false}
               title="Travel Guide: Admin App"
               description="Another mobile application created using Flutter with dart as programming language"
