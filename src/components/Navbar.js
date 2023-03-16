@@ -94,7 +94,7 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href="https://kelvinyou.github.io/"
+                href="https://kelvinyou.vercel.app"
                 target="_blank"
                 rel="noreferrer"
               >
