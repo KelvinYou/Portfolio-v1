@@ -8,7 +8,6 @@ function Type() {
         strings: [
           "Software Engineer",
           "Web & Mobile Developer",
-          "UI/UX Designer",
         ],
         autoStart: true,
         loop: true,
