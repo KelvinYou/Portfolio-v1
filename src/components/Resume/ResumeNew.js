@@ -26,7 +26,7 @@ function ResumeNew() {
   return (
     <div>
       <Container fluid className="resume-section">
-      <a href={apkFile} download="yourfile.apk">
+      <a href={apkFile} download="interior_design_app.apk">
         Download APK
       </a>
         <Particle />
