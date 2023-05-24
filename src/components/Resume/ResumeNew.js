@@ -8,6 +8,9 @@ import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
+import apkFile from '../../Assets/app-release.apk';
+
+
 const resumeLink =
   "https://raw.githubusercontent.com/KelvinYou/master/src/Assets/Resume-Kelvin.pdf";
 
@@ -23,6 +26,9 @@ function ResumeNew() {
   return (
     <div>
       <Container fluid className="resume-section">
+      <a href={apkFile} download="yourfile.apk">
+        Download APK
+      </a>
         <Particle />
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
