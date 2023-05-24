@@ -8,16 +8,12 @@ import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
-import apkFile from '../../Assets/app-release.apk';
-
-
 const resumeLink =
   "https://raw.githubusercontent.com/KelvinYou/master/src/Assets/Resume-Kelvin.pdf";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
   const [file, setFile] = useState("./../../Assets/Resume-Kelvin.pdf");
-
 
   useEffect(() => {
     setWidth(window.innerWidth);
@@ -26,9 +22,7 @@ function ResumeNew() {
   return (
     <div>
       <Container fluid className="resume-section">
-      <a href={apkFile} download="interior_design_app.apk">
-        Download APK
-      </a>
+        
         <Particle />
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
